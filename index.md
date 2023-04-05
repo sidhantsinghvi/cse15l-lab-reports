@@ -35,7 +35,7 @@ Horizontal rule:
 
 ---
 
-`Inline code` with backticks
+`something` Inline code with backticks
 
 ```
 # code block
