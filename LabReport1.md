@@ -33,7 +33,7 @@ Your screen must look like this:
 
 <img width="740" alt="Screenshot 2023-04-10 at 7 24 01 PM" src="https://user-images.githubusercontent.com/130006438/231039295-9d3ad65c-5453-4468-9452-8ad6b64e0bf5.png">
 
- Trying Some Commands
+ 3. Trying Some Commands
 
 - cd~
 - cd
