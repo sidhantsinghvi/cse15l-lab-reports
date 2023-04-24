@@ -62,8 +62,8 @@ Your screen must look like this:
 - **```cd```** : used to take user directly to home directory
 - **```ls -a```** lists all files and directories in the current directory 
 - **```ls <directory>```** : used to list the contents of the specified directory instead of the current working directory
-- **```cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/```**
-- **```cat /home/linux/ieng6/cs15lsp23/public/hello.txt```**
+- **```cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/```** : used to copy files and directories from one location to another
+- **```cat /home/linux/ieng6/cs15lsp23/public/hello.txt```** : used to display the contents of a file on the terminal.
 
  ---
 Some examples:
