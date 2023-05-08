@@ -1,7 +1,8 @@
 Part 1
 ---
 
-code: 
+A web server called StringServer that supports the path and behavior is described below. It keeps track of a single string that gets added to by incoming requests.     
+
 
 ```
 
@@ -34,27 +35,41 @@ class NumberServer {
     }
 }
 ```
-<img width="447" alt="image" src="https://user-images.githubusercontent.com/130006438/233950869-ea2d0ed7-43b2-4950-9af9-1193897533f1.png">
-<img width="447" alt="image" src="https://user-images.githubusercontent.com/130006438/233951095-d468188e-a100-4eaa-8b2a-2790347eb202.png">
-<img width="447" alt="image" src="https://user-images.githubusercontent.com/130006438/233958338-1bcc3c2a-3984-49dc-b068-017ea2202270.png">
+The code generates this when run:
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/130006438/233950869-ea2d0ed7-43b2-4950-9af9-1193897533f1.png">
+
+
+The StringServer class's main method instantiates a new Handler object to process incoming requests. The Handler class provides the handleRequest method, which parses request paths and query parameters to create a response for display on a web page. If a request path contains "/add-message?s=", the value of the "s" parameter is extracted and appended to the str instance variable. str is a StringBuilder object that stores all the passed strings, with each new string added on a new line every time the page loads. If the request path does not include "/add-message?s=", the server returns a "404 Not Found" error, indicating that the requested resource cannot be found. This behavior is because handleRequest is programmed to only process requests that have the "s" parameter. If the "s" parameter is present, the server prints the contents of the str instance variable.
+
+`/add-message?s=hi  `       prints this on the webpage
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/130006438/233951095-d468188e-a100-4eaa-8b2a-2790347eb202.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/130006438/233958338-1bcc3c2a-3984-49dc-b068-017ea2202270.png">
 
 This code has two classes(Handler and NumberServer).
----
----
+
 
 Part 2
 ---
 
-  It sets the values of the new array to the old one instead of the other way.
+  The 'reversed' method sets the values of the new array to the old one instead of the other way. So, it does not reverse the array as values are not replaced. The array in the parameter was replaced by the values in the new Array. This made it blank.
   
   So, it can only have values that are zero.
-  The test below is passed by the method.
-<img width="529" alt="image" src="https://user-images.githubusercontent.com/130006438/233964912-4194b8f5-e848-4321-abb3-d3ddf73cc6c1.png">
+
+  The test below is a non failure inducing input for the method.
+` 
+@Test
+public void testReversed () {
+int [] input1 = { };
+assertArrayEquals(new int [l{ }, ArrayExamples.`
   
 
   The test below is failed by this method.
  
  <img width="405" alt="image" src="https://user-images.githubusercontent.com/130006438/233964297-3d1fcb9f-fd9d-48ed-8930-2fd53bd78284.png">
+A screenshot of the output was:
+<img width="968" alt="image" src="https://user-images.githubusercontent.com/130006438/236777799-d0421108-f832-4b59-9823-61e8651b90bd.png">
 
 **Code before:**
   ```
@@ -76,6 +91,8 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
  ```
+ Basically, what this code does is that it places te values in the newArray in reverse order from the array(arr) that is input as the parameter.
+ Earlier, the array in the parameter was replaced by the values in the new Array. This made it blank.
 ---
 Part 3
 ---
