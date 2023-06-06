@@ -51,6 +51,7 @@ So, I ran this command to get the command using this in the directory I wanted:
 
 ```cp ../ListExamples.java```
 
+directory:
 ``` /home/linux/ieng6/cs15lsp23/cs15lsp23qo/grader-review-sidhantsinghvi03 ```
 
 
