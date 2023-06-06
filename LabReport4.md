@@ -51,7 +51,8 @@ So, I ran this command to get the command using this in the directory I wanted:
 
 ```cp ../ListExamples.java```
 
-```/home/linux/ieng6/cs15lsp23/cs15lsp23qo/grader-review-sidhantsinghvi03```
+``` /home/linux/ieng6/cs15lsp23/cs15lsp23qo/grader-review-sidhantsinghvi03 ```
+
 
 ---
 
@@ -74,6 +75,7 @@ git add
 git commit -m "donee"
 git push
 ```
+
 git add adds changes to the staging area.
 git commit -m creates a new commit with a specified commit message("donee") in one line.
 git push uploads local commits to a remote repository.
