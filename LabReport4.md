@@ -24,22 +24,26 @@ I had previosly copied:
 ```git@github.com:sidhantsinghvi03/grader-review-sidhantsinghvi03.git```
 
 So, I could paste it just paste without going to github.
+
 ---
+
 ## Step 6
 
 I used the up arrow key for the junit tests.
-```
-cd grader-review-sidhantsinghvi03
-```
-```
-<up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <enter>
-```
+```cd grader-review-sidhantsinghvi03```
+
+
+```<up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <up> <enter>```
+
 <img width="1210" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/1643d6ad-ab3e-4b9f-a0d0-6c24c828cf06">
 
 This fails:
 
+
 <img width="688" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/cb30b2c7-eb8e-4383-9239-32f20dcebe14">
+
 ---
+
 ## Step 7
 
 To fix it, I realised that usig a code from the parent directory that is already corrected should help.
@@ -50,6 +54,7 @@ So, I ran this command to get the command using this in the directory I wanted:
 ```/home/linux/ieng6/cs15lsp23/cs15lsp23qo/grader-review-sidhantsinghvi03```
 
 ---
+
 ## Step 8
 
 I had just run the JUnit tests two step up.
@@ -61,6 +66,7 @@ This ran the same JUnit tests and ran the code. THE TESTS PASSED!!
 <img width="1156" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/93e70128-f537-4e72-9689-8fbfbacb09ae">
 
 ---
+
 ## Step 9
 
 ```
