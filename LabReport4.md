@@ -8,6 +8,7 @@ To log into the ieng6 account:
 ```
 As I had already used the command```ssh cs15lsp23qo@ieng6.ucsd.edu``` earlier, I though this would be the fastest way.
 Then I entered my password
+
 <img width="649" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/31b7d420-c3ae-4e7e-baaa-dfab937cf1c1">
 ---
 ## Step 5:
@@ -19,7 +20,9 @@ git clone <ctrl-V> <enter>
 <img width="538" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/3a91c5ba-9b7e-4343-be0e-c1759565f213">
 
 
-I had previosly copied: ```git@github.com:sidhantsinghvi03/grader-review-sidhantsinghvi03.git```. 
+I had previosly copied:
+```git@github.com:sidhantsinghvi03/grader-review-sidhantsinghvi03.git```
+
 So, I could paste it just paste without going to github.
 ---
 ## Step 6
