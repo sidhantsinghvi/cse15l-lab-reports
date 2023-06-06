@@ -64,7 +64,7 @@ End notes:
 
 <img width="538" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/7ef4e6ba-9d96-4197-81d1-c2682ac3e081">
 
- 4. Description to fix bug is given above by the student.
+Description to fix bug is given above by the student.
 
 ***Summary***
 
