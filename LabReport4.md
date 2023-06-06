@@ -45,25 +45,21 @@ This fails:
 To fix it, I realised that usig a code from the parent directory that is already corrected should help.
 So, I ran this command to get the command using this in the directory I wanted:
 
-```
-cp ../ListExamples.java
-```
+```cp ../ListExamples.java```
 
-```
-/home/linux/ieng6/cs15lsp23/cs15lsp23qo/grader-review-sidhantsinghvi03
-```
+```/home/linux/ieng6/cs15lsp23/cs15lsp23qo/grader-review-sidhantsinghvi03```
+
 ---
 ## Step 8
 
 I had just run the JUnit tests two step up.
 
-```
-<up> <up> <enter>
-```
+```<up> <up> <enter>```
 
 This ran the same JUnit tests and ran the code. THE TESTS PASSED!! 
 
 <img width="1156" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/93e70128-f537-4e72-9689-8fbfbacb09ae">
+
 ---
 ## Step 9
 
