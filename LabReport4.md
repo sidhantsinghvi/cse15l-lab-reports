@@ -20,16 +20,16 @@ git clone <ctrl-V> <enter>
 <img width="538" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/3a91c5ba-9b7e-4343-be0e-c1759565f213">
 
 
-I had previosly copied:
-```git@github.com:sidhantsinghvi03/grader-review-sidhantsinghvi03.git```
+I had previosly copied: ```git@github.com:sidhantsinghvi03/grader-review-sidhantsinghvi03.git```
 
-So, I could paste it just paste without going to github.
+So, I could paste it just paste without having to go to github again.
 
 ---
 
 ## Step 6
 
 I used the up arrow key for the junit tests.
+
 ```cd grader-review-sidhantsinghvi03```
 
 
