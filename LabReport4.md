@@ -44,7 +44,7 @@ So, I ran this command to get the command using this in the directory I wanted:
 cp ../ListExamples.java
 ```
 
-`/home/linux/ieng6/cs15lwi23/cs15lwi23auc/grader-review-vaibhavmaloo03`
+```/home/linux/ieng6/cs15lsp23/cs15lsp23qo/grader-review-sidhantsinghvi03```
 
 ## Step 8
 I had just run the JUnit tests two step up.
