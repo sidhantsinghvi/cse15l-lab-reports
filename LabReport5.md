@@ -11,9 +11,12 @@ I use a macbook, and the terminal in VS Code. After i log in ien6, I can'tcompil
 <img width="822" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/74cc8501-5759-41c3-af7c-d672ae64aee2">
 ---
 TA:
+
 You should give more information when you ask a question. However, here I can help you as I can see the ```ls``` command you have used.
 So, you're trying to compile a file that isn't even in the same directory that the system is in right now! Think of what you could do and make a reply to the post.
+
 ---
+
 Student:
 
 Ohhh, my bad. I get it. This is what i've done to fix the condition.:
@@ -29,19 +32,23 @@ Here are my tests and the code:
 
 ---
 Student again:
+
 Please I have 20 more minutes.
 
 ---
 
 Student2:
+
 Hold up. I see that youre trying to get edge cases ***BUT*** you need to look at the code to understand whats missing. See how the code runs, its not that hard to come up with examples.
 
 ---
 TA:
+
 Thats a well-worded answer @Student2. You haven't given much information but have given some small hints.
 
 ---
 Student:
+
 Ohh, thank you very much you're a life saver. The code was not running well for lists of length greater than one as it was losing the first element, and the reversedInPlace method was reassigning the empty array to the values This is what I did:
 
 <img width="538" alt="image" src="https://github.com/sidhantsinghvi/cse15l-lab-reports/assets/130006438/1485df5d-bdc4-4fb1-80e2-3c4dc3adfeba">
@@ -60,7 +67,8 @@ End notes:
  4. Description to fix bug is given above by the student.
 
 ***Summary***
-So, I went thrrough three bugs here.
+
+So, I went through three bugs here.
 The first one is one that confused me the most during my first couple weeks in this class. Understanding how to change the directory and when to change it is very important. So, I decided to cover that in this lab.
 I felt that just one was too less, so, I added two codin bugs that were related to lists.
 
